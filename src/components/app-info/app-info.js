@@ -3,7 +3,7 @@ function AppInfo() {
   return (
     <header>
       <Container>
-        <p>woeked</p>
+        <p>Still Work</p>
       </Container>
     </header>
   );
