@@ -1,4 +1,5 @@
 import "./app-head.css";
+// ! Images
 import Logo from "../../img/Logo.png";
 import beansLogoWhite from "../../img/beansLogoWhite.png";
 function AppHead() {
@@ -9,22 +10,21 @@ function AppHead() {
           <div className="nav">
             <ul className="list">
               <li className="item">
-                <a className="link" href={"./inbdex.html"}>
-                  <img
-                    src={Logo}
-                    alt="Logo Site Img "
-                    width="108"
-                    height="35"
-                  />
+                <a
+                  className="link"
+                  href="https://www.instagram.com/"
+                  target={"_blank"}
+                >
+                  <img src={Logo} alt="Logo Site Img" width={108} height={35} />
                 </a>
               </li>
               <li className="item" style={{ padding: "20px" }}>
-                <a className="link" href={"#"}>
+                <a className="link" href="#" target={"_blank"}>
                   Our coffee
                 </a>
               </li>
               <li className="item" style={{ padding: "20px" }}>
-                <a className="link" href={"#"}>
+                <a className="link" href="#" target={"_blank"}>
                   For your pleasure
                 </a>
               </li>
@@ -36,7 +36,7 @@ function AppHead() {
               className="beans"
               src={beansLogoWhite}
               alt="Box section img"
-              height="29.3"
+              height={29}
             />
             <p className="box__desc">
               We makes every day full of energy and taste

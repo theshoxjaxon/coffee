@@ -15,8 +15,8 @@ function Ourbeast() {
               className="our-img"
               src={solimo}
               alt="img for item our section"
-              width="151"
-              height="130"
+              width={151}
+              height={130}
             />
             <h3 className="our-head">Solimo Coffee Beans 2 kg</h3>
             <h1 className="our-price">10.73$</h1>
@@ -26,8 +26,8 @@ function Ourbeast() {
               className="our-img"
               src={presto}
               alt="img for item our section"
-              width={"150px"}
-              height={"130px"}
+              width={150}
+              height={130}
             />
             <h3 className="our-head">Solimo Coffee Beans 2 kg</h3>
             <h1 className="our-price">10.73$</h1>
@@ -37,8 +37,8 @@ function Ourbeast() {
               className="our-img"
               src={aramistiko}
               alt="img for item our section"
-              width="151"
-              height="130"
+              width={151}
+              height={151}
             />
             <h3 className="our-head">Solimo Coffee Beans 2 kg</h3>
             <h1 className="our-price">10.73$</h1>
