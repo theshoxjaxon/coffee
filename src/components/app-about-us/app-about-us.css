@@ -1,0 +1,36 @@
+/* ! STARTED MAIN PART */
+.main {
+  flex-grow: 1;
+}
+.main__head {
+  /* ! margin-top: 80px; */
+  text-align: center;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+}
+.bearns__black {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.main__desc {
+  max-width: 589px;
+  margin: 0px auto;
+}
+.main-desc {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.main__desc {
+  margin-top: 40.7px;
+}
+.main-desc + .main-desc {
+  margin-top: 25px;
+}
+.About-Us {
+  padding-top: 80px;
+  /* padding-bottom: 101px; */
+}

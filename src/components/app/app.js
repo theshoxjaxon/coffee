@@ -1,9 +1,15 @@
-import AppInfo from "../app-info/app-info";
+import AppHead from "../app-head/app-head.js";
+import AppAbout from "../app-about-us/app-about-us.js";
+import Ourbeast from "../our-beast/our-beast.js";
 
 function App() {
   return (
     <>
-      <AppInfo />
+      <AppHead />
+      <main className="main" style={{ flexGrow: 1 }}>
+        <AppAbout />
+        <Ourbeast />
+      </main>
     </>
   );
 }
